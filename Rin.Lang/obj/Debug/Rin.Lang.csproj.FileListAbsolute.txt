@@ -1,0 +1,10 @@
+L:\Apps\Rin\Rin.Lang\obj\Debug\Rin.Lang.csprojResolveAssemblyReference.cache
+L:\Apps\Rin\Rin.Lang\bin\Debug\Rin.Lang.dll
+L:\Apps\Rin\Rin.Lang\bin\Debug\Rin.Lang.pdb
+L:\Apps\Rin\Rin.Lang\obj\Debug\Rin.Lang.dll
+L:\Apps\Rin\Rin.Lang\obj\Debug\Rin.Lang.pdb
+C:\Users\Gavin\Desktop\Rin\Rin.Lang\bin\Debug\Rin.Lang.dll
+C:\Users\Gavin\Desktop\Rin\Rin.Lang\bin\Debug\Rin.Lang.pdb
+C:\Users\Gavin\Desktop\Rin\Rin.Lang\obj\Debug\Rin.Lang.csprojResolveAssemblyReference.cache
+C:\Users\Gavin\Desktop\Rin\Rin.Lang\obj\Debug\Rin.Lang.dll
+C:\Users\Gavin\Desktop\Rin\Rin.Lang\obj\Debug\Rin.Lang.pdb

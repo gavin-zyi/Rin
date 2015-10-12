@@ -1,0 +1,10 @@
+L:\Apps\Rin\Rin.Launcher\bin\Release\Rin.Launcher.exe.config
+L:\Apps\Rin\Rin.Launcher\bin\Release\Rin.Launcher.exe
+L:\Apps\Rin\Rin.Launcher\bin\Release\Rin.Launcher.pdb
+L:\Apps\Rin\Rin.Launcher\bin\Release\Rin.Lang.dll
+L:\Apps\Rin\Rin.Launcher\bin\Release\Rin.Lang.pdb
+L:\Apps\Rin\Rin.Launcher\obj\Release\Rin.Launcher.csprojResolveAssemblyReference.cache
+L:\Apps\Rin\Rin.Launcher\obj\Release\Rin.Launcher.Program.resources
+L:\Apps\Rin\Rin.Launcher\obj\Release\Rin.Launcher.csproj.GenerateResource.Cache
+L:\Apps\Rin\Rin.Launcher\obj\Release\Rin.Launcher.exe
+L:\Apps\Rin\Rin.Launcher\obj\Release\Rin.Launcher.pdb

@@ -1,0 +1,4 @@
+L:\Apps\Rin\Rin.Lang\bin\Release\Rin.Lang.dll
+L:\Apps\Rin\Rin.Lang\bin\Release\Rin.Lang.pdb
+L:\Apps\Rin\Rin.Lang\obj\Release\Rin.Lang.dll
+L:\Apps\Rin\Rin.Lang\obj\Release\Rin.Lang.pdb

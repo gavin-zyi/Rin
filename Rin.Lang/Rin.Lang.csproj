@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB29A346-23F0-463F-8821-3F3EECAB0FA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rin.Lang</RootNamespace>
+    <AssemblyName>Rin.Lang</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Any.cs" />
+    <Compile Include="Args.cs" />
+    <Compile Include="Binders\BinaryOperationBinder.cs" />
+    <Compile Include="Binders\ConvertBinder.cs" />
+    <Compile Include="Binders\GetIndexBinder.cs" />
+    <Compile Include="Binders\GetMemberBinder.cs" />
+    <Compile Include="Binders\InvokeBinder.cs" />
+    <Compile Include="Binders\SetIndexBinder.cs" />
+    <Compile Include="Binders\SetMemberBinder.cs" />
+    <Compile Include="Binders\UnaryOperationBinder.cs" />
+    <Compile Include="Bool.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="Function.cs" />
+    <Compile Include="Iter.cs" />
+    <Compile Include="List.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="None.cs" />
+    <Compile Include="Number.cs" />
+    <Compile Include="Parsing\Parser.cs" />
+    <Compile Include="Parsing\Scanner.cs" />
+    <Compile Include="Parsing\Scoping\BlockScope.cs" />
+    <Compile Include="Parsing\Scoping\ClassScope.cs" />
+    <Compile Include="Parsing\Scoping\DynamicScope.cs" />
+    <Compile Include="Parsing\Scoping\FunctionScope.cs" />
+    <Compile Include="Parsing\Scoping\IReturnScope.cs" />
+    <Compile Include="Parsing\Scoping\ModuleScope.cs" />
+    <Compile Include="Parsing\Scoping\ParameterScope.cs" />
+    <Compile Include="Parsing\Scoping\Scope.cs" />
+    <Compile Include="Parsing\Scoping\ScopeManager.cs" />
+    <Compile Include="Parsing\ScopeOld.cs" />
+    <Compile Include="Parsing\Token.cs" />
+    <Compile Include="Parsing\TokenType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runtime.cs" />
+    <Compile Include="String.cs" />
+    <Compile Include="Tuple.cs" />
+    <Compile Include="Utils\ExpressionHelper.cs" />
+    <Compile Include="Visitors\ConstantFolder.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build-grammar.bat" />
+    <None Include="Parsing\Scanner.rl" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
